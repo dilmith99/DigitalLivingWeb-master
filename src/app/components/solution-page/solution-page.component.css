@@ -1,0 +1,307 @@
+header {
+  position: relative;
+  background-color: black;
+  height: 90vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.75); /*dim the background*/
+  z-index: 1;
+}
+.cd-slider-nav {
+  text-align: center;
+}
+
+.cd-slider-nav ul {
+  padding: 0;      /* Override defaults for lists */
+  margin: 0;       /* Override defaults for lists */
+  width: 100%;   
+}
+
+.cd-slider-nav ul li {
+  display: inline-block;
+  width: 25%;            /* Show 4 logos per row */
+  text-align: center; 
+}
+
+.cd-slider-nav ul li a {
+  text-decoration: none;
+}
+
+.cd-slider-nav ul li h6 {
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 400;
+  color: #fff;
+  margin-top: 15px;
+}
+
+.cd-slider-nav ul li h6:hover {
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 400;
+  color: #0466C8;
+  margin-top: 15px;
+}
+
+.cd-slider-nav ul .selected h6 {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+@media screen and (min-width: 501px) and (max-width: 960px) {
+  .nav li { width: 50%; } /* Show 2 logos per row on medium devices (tablets, phones in landscape) */
+}
+
+@media (max-width: 500px) {
+  .nav li { width: 100%; } /* On small screens, show one logo per row */
+}
+
+
+.cd-slider-nav i{
+  margin: 0 auto;
+  margin-bottom: 15px;
+  display: block;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 50%;
+  background-color: #F8F9FA;
+  text-align: center;
+}
+
+.cd-slider-nav i{
+  font-size: 50px;
+  color: #023E7D;
+  text-align: center;
+}
+
+.cd-slider-nav i:hover {
+  background-color: #023E7D;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+}
+
+.cd-slider-nav .icon:hover{
+  color: #F8F9FA;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #000;
+}
+section{
+  margin-top: 100px;
+}
+.border {
+  background: #e1e1e1;
+  height: 1px;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 45px;
+}
+
+
+/*
+=======================
+----- Home Intelligence ----
+=======================
+*/
+
+.second-slide {
+  text-align: center;
+  background-color: #fff;
+  width: 100%;
+}
+
+.second-slide .heading h1 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 38px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.second-slide .heading span {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #ffbb05;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+.second-slide img {
+  width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.second-slide .left-image {
+  padding-right: 0px!important;
+}
+
+.second-slide .right-image {
+  padding-left: 0px!important;
+}
+
+.second-slide .right-about-text {
+  text-align: left;
+  margin-left: 15px;
+  margin-right: 30px;
+}
+
+.second-slide .right-about-text h4 {
+  font-size: 19px;
+  color: #121212;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.second-slide .right-about-text .primary-button {
+  margin-top: 25px;
+}
+
+.second-slide .left-about-text {
+  text-align: left;
+  margin-left: 15px;
+  margin-left: 30px;
+}
+
+.second-slide .left-about-text h4 {
+  font-size: 19px;
+  color: #121212;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.second-slide .left-about-text .primary-button {
+  margin-top: 25px;
+}
+
+
+/*
+=======================
+----- second n fourth -----
+=======================
+*/
+
+.third-slide {
+  text-align: center;
+  background-color: #fff;
+  width: 100%;
+}
+
+.third-slide .heading h1 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 38px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.third-slide .heading span {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #ffbb05;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+.third-slide .feature-list ul {
+  padding: 0;
+  margin: 0;
+}
+
+.third-slide .feature-list ul li {
+  display: block;
+}
+
+.third-content {
+  padding: 30px;
+}
+
+.third-content .left-image img {
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+  display: inline-block;
+  object-fit: cover;
+}
+
+.third-content .right-feature-text h4 {
+  font-size: 19px;
+  color: #121212;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.third-content .right-feature-text h4 em {
+  font-style: normal;
+  font-weight: 700;
+  color: #ffbb05;
+}
+
+.third-content .feature-list {
+  margin-top: 20px;
+}
+
+.third-content .feature-list p {
+  font-weight: 400;
+}
+
+.third-content .right-feature-text {
+  text-align: left;
+  margin: 0px 15px 0px 15px;
+}
+
+.third-content .right-feature-text .primary-button {
+  margin-top: 30px;
+}

@@ -1,0 +1,15 @@
+h6{
+    color: aliceblue;
+    font-size: 12px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+h6 a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+p{
+    color: aliceblue;
+    font-size: 12px;
+}
